@@ -9,9 +9,6 @@ package com.eduardo_arellano;
 
 public class FizzBuzz {
 
-    // Variable's declaration field
-    int currentNumber;
-
     /**
      * Determines the appropriate FizzBuzz representation for a given number.
      *
@@ -32,7 +29,7 @@ public class FizzBuzz {
      * Prints numbers from 1 to 100 with FizzBuzz substitutions.
      */
     public void printFizzBuzzSequence() {
-        for (currentNumber = 1; currentNumber <= 100; currentNumber++) {
+        for (int currentNumber = 1; currentNumber <= 100; currentNumber++) {
             String fizzBuzzValue = getFizzBuzzValue(currentNumber);
             System.out.println(fizzBuzzValue);
         }
