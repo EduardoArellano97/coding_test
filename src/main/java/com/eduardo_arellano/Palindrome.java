@@ -36,7 +36,7 @@ public class Palindrome
 
     public static void main(String[] args) {
         Palindrome p = new Palindrome();
-        System.out.println(p.isPalindrome("radar"));
-        System.out.println(p.isPalindrome("level"));
+        System.out.println(p.isPalindrome("ra dAr"));
+        System.out.println(p.isPalindrome("Leve L"));
     }
 }
